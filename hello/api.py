@@ -4,7 +4,8 @@ from bonderizer.api import Service
 # how do we be simple and explicit?
 
 class Greeter(Service):
-
-    def say_hello(name: str) -> str:
-        """
-        """
+    """
+    A hello world greeter service
+    """
+    # Do we need method or RPC definitions?
+    # Do we need message types for those too?

@@ -1,6 +1,6 @@
-from bonderizer import Service
+from bonderizer.api import Service
 
-# Work towards very simple and almost implicit,
+# Work towards being very simple and almost implicit,
 # how do we be simple and explicit?
 
 class Greeter(Service):

@@ -17,3 +17,6 @@ Invariants
 https://en.wikipedia.org/wiki/Design_by_contract
 
 When converting we will replace the connector
+
+
+Work backwards, render out a protobuf and generate code, use that code in the modules and see how that looks, then connect the dots

@@ -1,8 +1,11 @@
-from api import Greeter
+import zope
+
+from hello.interface import IGreeterConsumer
 
 
-class Greeter(Greeter):
+@zope.interface.implementer(IGreeterConsumer)
+class Greeter:
 
-    # XXX - how do we reduce this?
     def say_hello(name: str) -> str:
-        return "Hello " + name
+        """ """
+        print("Call Producer")

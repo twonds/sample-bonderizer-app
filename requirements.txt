@@ -1,1 +1,2 @@
 bonderizer @ git+https://github.com/twonds/bonderizer-py@main
+zope.interface==5.5.2

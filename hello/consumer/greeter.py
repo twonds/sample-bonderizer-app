@@ -1,11 +1,15 @@
-import zope
+import zope.interface
 
-from hello.interface import IGreeterConsumer
+from hello.interface import IGreeter
+from hello.api import Greeter
 
 
-@zope.interface.implementer(IGreeterConsumer)
+@zope.interface.implementer(IGreeter)
 class Greeter:
+
+    def __init__(self):
+        self.api = Greeter()
 
     def say_hello(name: str) -> str:
         """ """
-        print("Call Producer")
+        self.api.say_hello(name)

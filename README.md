@@ -1,2 +1,3 @@
-# sample-bonderizer-app
-A sample application for demonstrating bonderizer and achieving the goal of only writing code that matters for a backend service
+# Automated Examples for Bonderizer
+
+A set of samples and examples for testing and experimenting with Bonderizer
